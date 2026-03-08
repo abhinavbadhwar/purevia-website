@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Purevia by APRS Limited</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f6fbff;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+background:#0077b6;
+color:white;
+padding:18px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+font-size:15px;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(to right,#00b4d8,#0077b6);
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+/* CONTAINER */
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+padding:40px 0;
+}
+
+/* PRODUCTS */
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+padding:25px;
+text-align:center;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#0077b6;
+margin-bottom:10px;
+}
+
+.price{
+font-size:20px;
+font-weight:bold;
+margin:8px 0;
+}
+
+/* LOT SECTION */
+
+.lot{
+background:white;
+margin-top:40px;
+padding:30px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+/* CONTACT */
+
+.contact{
+background:#0077b6;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+
+.contact h2{
+margin-bottom:10px;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+padding:12px 22px;
+background:white;
+color:#0077b6;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+background:#023e8a;
+color:white;
+text-align:center;
+padding:15px;
+font-size:14px;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+.hero h1{
+font-size:26px;
+}
+
+nav{
+width:100%;
+margin-top:10px;
+text-align:center;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Purevia</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#order">Order</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Purevia Drinking Water</h1>
+<p>Premium packaged drinking water by APRS Limited</p>
+
+</section>
+
+<div class="container">
+
+<h2 style="text-align:center;margin-bottom:30px;">Bottle Sizes</h2>
+
+<div class="products" id="products">
+
+<div class="card">
+<h3>200 ML Bottle</h3>
+<p>Small serving bottle</p>
+
+<div class="price">Single Bottle: ₹5</div>
+
+<p>24 Bottles per Lot</p>
+
+<div class="price">Lot Price: ₹100</div>
+</div>
+
+<div class="card">
+<h3>250 ML Bottle</h3>
+<p>Perfect for quick refreshment</p>
+
+<div class="price">Single Bottle: ₹6</div>
+
+<p>20 Bottles per Lot</p>
+
+<div class="price">Lot Price: ₹110</div>
+</div>
+
+<div class="card">
+<h3>1 Litre Bottle</h3>
+<p>Ideal for daily hydration</p>
+
+<div class="price">Single Bottle: ₹20</div>
+
+<p>12 Bottles per Lot</p>
+
+<div class="price">Lot Price: ₹210</div>
+</div>
+
+</div>
+
+<div class="lot">
+
+<h2>Bulk Orders</h2>
+
+<p style="margin-top:10px">
+
+200ml → 24 bottles per lot<br>
+250ml → 20 bottles per lot<br>
+1L → 12 bottles per lot
+
+</p>
+
+</div>
+
+</div>
+
+<section class="contact" id="order">
+
+<h2>Place Your Order</h2>
+
+<p>For bulk or retail orders, contact us.</p>
+
+<a href="mailto:orders@purevia.com">Send Email</a>
+
+<a href="tel:+916280943728">Call Now</a>
+
+</section>
+
+<footer>
+
+© 2026 Purevia by APRS Limited
+
+</footer>
+
+</body>
+</html>
