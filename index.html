@@ -7,233 +7,231 @@
 <meta name="description" content="Purevia Packaged Drinking Water by APRS Limited. Safe, clean, and refreshing bottled water. Bulk orders and custom labels available.">
 
 <style>
+
 /* GENERAL */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Arial, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 body {
-  background: #f6fbff;
-  color: #333;
-  line-height: 1.6;
-  scroll-behavior: smooth;
+background: #f6fbff;
+color: #333;
+line-height: 1.6;
+scroll-behavior: smooth;
 }
 
 /* HEADER */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 6%;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  flex-wrap: wrap;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 6%;
+background: white;
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+flex-wrap: wrap;
+position: sticky;
+top: 0;
+z-index: 100;
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: 900;
-  letter-spacing: 2px;
-  color: #023e8a;
-  display: flex;
-  align-items: center;
+font-size: 28px;
+font-weight: 900;
+letter-spacing: 2px;
+color: #023e8a;
+display: flex;
+align-items: center;
 }
 
 .logo .via {
-  color: #00b4d8;
+color: #00b4d8;
 }
 
 .drop {
-  font-size: 24px;
-  margin-right: 6px;
+font-size: 24px;
+margin-right: 6px;
 }
 
 nav {
-  margin-top: 8px;
+margin-top: 8px;
 }
 
 nav a {
-  margin-right: 18px;
-  text-decoration: none;
-  color: #333;
-  font-size: 14px;
-  transition: color 0.3s;
+margin-right: 18px;
+text-decoration: none;
+color: #333;
+font-size: 14px;
+transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #0077b6;
+color: #0077b6;
 }
 
 /* HERO */
 .hero {
-  padding: 80px 6%;
-  background: linear-gradient(120deg, #00b4d8, #0077b6);
-  color: white;
-  text-align: center;
+padding: 80px 6%;
+background: linear-gradient(120deg, #00b4d8, #0077b6);
+color: white;
+text-align: center;
 }
 
 .hero h1 {
-  font-size: 36px;
-  margin-bottom: 15px;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 0.8s ease-out;
+font-size: 36px;
+margin-bottom: 15px;
+opacity: 0;
+transform: translateY(30px);
+transition: 0.8s ease-out;
 }
 
 .hero p {
-  font-size: 18px;
-  margin-bottom: 25px;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 1s ease-out;
+font-size: 18px;
+margin-bottom: 25px;
+opacity: 0;
+transform: translateY(30px);
+transition: 1s ease-out;
 }
 
 .btn {
-  display: inline-block;
-  padding: 12px 28px;
-  background: white;
-  color: #0077b6;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  transition: 0.3s;
-  opacity: 0;
-  transform: translateY(30px);
+display: inline-block;
+padding: 12px 28px;
+background: white;
+color: #0077b6;
+border-radius: 25px;
+text-decoration: none;
+font-weight: bold;
+font-size: 14px;
+transition: 0.3s;
+opacity: 0;
+transform: translateY(30px);
 }
 
 .btn:hover {
-  background: #00b4d8;
-  color: white;
+background: #00b4d8;
+color: white;
 }
 
 /* FEATURES */
 .features {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 25px;
-  padding: 50px 6%;
-  background: #ffffff;
-  text-align: center;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+gap: 25px;
+padding: 50px 6%;
+background: #ffffff;
+text-align: center;
 }
 
 .feature {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 0.6s ease-out;
+opacity: 0;
+transform: translateY(30px);
+transition: 0.6s ease-out;
 }
 
 .feature h3 {
-  color: #0077b6;
-  margin-bottom: 8px;
-  font-size: 16px;
+color: #0077b6;
+margin-bottom: 8px;
+font-size: 16px;
 }
 
 .feature p {
-  font-size: 14px;
-  color: #555;
+font-size: 14px;
+color: #555;
 }
 
 /* PRODUCTS */
 .products {
-  padding: 50px 6%;
-  text-align: center;
+padding: 50px 6%;
+text-align: center;
 }
 
 .products h2 {
-  margin-bottom: 35px;
+margin-bottom: 35px;
 }
 
 .bulk-offer {
-  background: #023e8a;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  font-weight: bold;
-  font-size: 15px;
-  margin-bottom: 25px;
-  border-radius: 8px;
+background: #023e8a;
+color: white;
+text-align: center;
+padding: 15px;
+font-weight: bold;
+font-size: 15px;
+margin-bottom: 25px;
+border-radius: 8px;
 }
 
 .product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 25px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 25px;
 }
 
 .product {
-  background: white;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: 0.3s;
-  opacity: 0;
-  transform: translateY(30px);
+background: white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+transition: 0.3s;
+opacity: 0;
+transform: translateY(30px);
 }
 
 .product:hover {
-  transform: translateY(-5px);
-}
-
-.product h3 {
-  margin-bottom: 6px;
+transform: translateY(-5px);
 }
 
 .price {
-  color: #0077b6;
-  font-weight: bold;
-  font-size: 14px;
-  margin-top: 4px;
+color: #0077b6;
+font-weight: bold;
+font-size: 14px;
+margin-top: 4px;
 }
 
 /* OFFERS */
 .offers {
-  padding: 50px 6%;
-  background: #f9faff;
-  text-align: center;
+padding: 50px 6%;
+background: #f9faff;
+text-align: center;
 }
 
 .offers h2 {
-  margin-bottom: 30px;
+margin-bottom: 30px;
 }
 
 .offer-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
 }
 
 .offer {
-  background: #eaf7ff;
-  padding: 18px;
-  border-radius: 10px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 0.6s ease-out;
+background: #eaf7ff;
+padding: 18px;
+border-radius: 10px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+opacity: 0;
+transform: translateY(30px);
+transition: 0.6s ease-out;
 }
 
 .old {
-  text-decoration: line-through;
-  color: #888;
+text-decoration: line-through;
+color: #888;
 }
 
 .new {
-  color: #0077b6;
-  font-weight: bold;
-  font-size: 18px;
+color: #0077b6;
+font-weight: bold;
+font-size: 18px;
 }
 
 .save {
-  color: #16a34a;
-  font-weight: bold;
+color: #16a34a;
+font-weight: bold;
 }
+
 
 /* CUSTOM LABEL INFO */
 .custom-info {
@@ -274,27 +272,27 @@ nav a:hover {
 
 /* REVIEWS */
 .reviews {
-  padding: 50px 6%;
-  background: #f9faff;
-  text-align: center;
+padding: 50px 6%;
+background: #f9faff;
+text-align: center;
 }
 
 .review-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin-top: 25px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+margin-top: 25px;
 }
 
 .review {
-  background: white;
-  padding: 18px;
-  border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
-  font-size: 14px;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 0.6s ease-out;
+background: white;
+padding: 18px;
+border-radius: 8px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+font-size: 14px;
+opacity: 0;
+transform: translateY(30px);
+transition: 0.6s ease-out;
 }
 
 /* DISTRIBUTOR */
@@ -362,106 +360,128 @@ nav a:hover {
   color: white;
 }
 
+
 /* FOOTER */
 footer {
-  background: #023e8a;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
+background: #023e8a;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 14px;
 }
 
-/* MOBILE */
-@media(max-width:600px){
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  nav {
-    margin-top: 10px;
-  }
-  .hero h1 {
-    font-size: 28px;
-  }
-  .product-grid, .offer-grid, .review-grid, .features {
-    grid-template-columns: 1fr;
-  }
+/* WHATSAPP BUTTON */
+.whatsapp-btn{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+font-size:26px;
+width:55px;
+height:55px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+transition:0.3s;
+z-index:999;
 }
 
-/* ANIMATION ACTIVE CLASS */
-.animate {
-  opacity: 1 !important;
-  transform: translateY(0px) !important;
+.whatsapp-btn:hover{
+background:#1ebe5d;
+transform:scale(1.1);
 }
+
+/* ANIMATION */
+.animate{
+opacity:1 !important;
+transform:translateY(0px) !important;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-  <div class="logo">
-    <span class="drop">💧</span> PURE<span class="via">VIA</span>
-  </div>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#products">Products</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#order">Order</a>
-  </nav>
+<div class="logo">
+<span class="drop">💧</span> PURE<span class="via">VIA</span>
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#reviews">Reviews</a>
+<a href="#order">Order</a>
+</nav>
 </header>
 
 <section class="hero">
-  <h1>Pure Water, Pure Life</h1>
-  <p>Premium packaged drinking water by APRS Limited. Clean, safe, and refreshing hydration.</p>
-  <a href="#products" class="btn">Explore Bottles</a>
+<h1>Pure Water, Pure Life</h1>
+<p>Premium packaged drinking water by APRS Limited. Clean, safe, and refreshing hydration.</p>
+<a href="#products" class="btn">Explore Bottles</a>
 </section>
 
+<!-- FEATURES -->
 <section class="features">
-  <div class="feature">
-    <h3>Advanced Filtration</h3>
-    <p>Multi-stage purification removes impurities.</p>
-  </div>
-  <div class="feature">
-    <h3>RO + UV Purification</h3>
-    <p>Protects against harmful bacteria.</p>
-  </div>
-  <div class="feature">
-    <h3>Mineral Balance</h3>
-    <p>Essential minerals for great taste.</p>
-  </div>
-  <div class="feature">
-    <h3>Trusted Quality</h3>
-    <p>Reliable packaged drinking water.</p>
-  </div>
+<div class="feature">
+<h3>Advanced Filtration</h3>
+<p>Multi-stage purification removes impurities.</p>
+</div>
+
+<div class="feature">
+<h3>RO + UV Purification</h3>
+<p>Protects against harmful bacteria.</p>
+</div>
+
+<div class="feature">
+<h3>Mineral Balance</h3>
+<p>Essential minerals for great taste.</p>
+</div>
+
+<div class="feature">
+<h3>Trusted Quality</h3>
+<p>Reliable packaged drinking water.</p>
+</div>
 </section>
 
+<!-- PRODUCTS -->
 <section class="products" id="products">
-  <div class="bulk-offer">
-    🚚 Bulk Orders Get Extra Discount + FREE Delivery
-  </div>
-  <h2>Our Bottle Sizes</h2>
-  <div class="product-grid">
-    <div class="product">
-      <h3>200 ML Bottle</h3>
-      <p>24 bottles per lot</p>
-      <div class="price">Single Bottle: ₹5</div>
-      <div class="price">Lot Price: ₹100</div>
-    </div>
-    <div class="product">
-      <h3>250 ML Bottle</h3>
-      <p>20 bottles per lot</p>
-      <div class="price">Single Bottle: ₹6</div>
-      <div class="price">Lot Price: ₹110</div>
-    </div>
-    <div class="product">
-      <h3>1 Litre Bottle</h3>
-      <p>12 bottles per lot</p>
-      <div class="price">Single Bottle: ₹20</div>
-      <div class="price">Lot Price: ₹210</div>
-    </div>
-  </div>
-</section>
 
+<div class="bulk-offer">
+🚚 Bulk Orders Get Extra Discount + FREE Delivery
+</div>
+
+<h2>Our Bottle Sizes</h2>
+
+<div class="product-grid">
+
+<div class="product">
+<h3>200 ML Bottle</h3>
+<p>24 bottles per lot</p>
+<div class="price">Single Bottle: ₹5</div>
+<div class="price">Lot Price: ₹100</div>
+</div>
+
+<div class="product">
+<h3>250 ML Bottle</h3>
+<p>20 bottles per lot</p>
+<div class="price">Single Bottle: ₹6</div>
+<div class="price">Lot Price: ₹110</div>
+</div>
+
+<div class="product">
+<h3>1 Litre Bottle</h3>
+<p>12 bottles per lot</p>
+<div class="price">Single Bottle: ₹20</div>
+<div class="price">Lot Price: ₹210</div>
+</div>
+
+</div>
+</section>
 <section class="offers">
   <h2>Special Discount Offers</h2>
   <div class="offer-grid">
@@ -524,22 +544,26 @@ footer {
   <a href="tel:+916280943728">Call Now</a>
 </section>
 
+
 <footer>
-  © 2026 Purevia by APRS Limited
+© 2026 Purevia by APRS Limited
 </footer>
 
+<a href="https://wa.me/916280943728?text=Hello%20I%20want%20to%20order%20Purevia%20water"
+class="whatsapp-btn"
+target="_blank">💬</a>
+
 <script>
-// SCROLL ANIMATION
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add('animate');
-    }
-  });
+const observer = new IntersectionObserver((entries)=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add("animate");
+}
+});
 },{threshold:0.2});
 
-document.querySelectorAll('.hero h1, .hero p, .btn, .feature, .product, .offer, .custom-info, .review, .distributor, .cta').forEach(el => {
-  observer.observe(el);
+document.querySelectorAll('.hero h1, .hero p, .btn, .feature, .product, .offer, .custom-info, .review, .distributor, .cta').forEach(el=>{
+observer.observe(el);
 });
 </script>
 
