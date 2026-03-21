@@ -418,6 +418,111 @@ transition:0.3s;
 background:#00b4d8;
 transform:scale(1.05);
 }
+/* 📱 MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+
+header {
+flex-direction: column;
+text-align: center;
+}
+
+nav {
+margin-top: 10px;
+}
+
+nav a {
+display: inline-block;
+margin: 5px;
+font-size: 13px;
+}
+
+/* HERO */
+.hero {
+padding: 60px 15px;
+}
+
+.hero h1 {
+font-size: 26px;
+}
+
+.hero p {
+font-size: 15px;
+}
+
+/* BUTTON */
+.btn {
+width: 100%;
+font-size: 15px;
+padding: 14px;
+}
+
+/* FEATURES */
+.features {
+grid-template-columns: 1fr 1fr;
+gap: 15px;
+}
+
+.feature h3 {
+font-size: 14px;
+}
+
+.feature p {
+font-size: 12px;
+}
+
+/* PRODUCTS */
+.product-grid {
+grid-template-columns: 1fr;
+}
+
+.product {
+padding: 15px;
+}
+
+/* OFFERS */
+.offer-grid {
+grid-template-columns: 1fr;
+}
+
+/* CUSTOM SECTION */
+.custom-box {
+padding: 20px;
+}
+
+.custom-info h2 {
+font-size: 22px;
+}
+
+.highlight {
+font-size: 14px;
+}
+
+/* REVIEWS */
+.review-grid {
+grid-template-columns: 1fr;
+}
+
+/* CTA */
+.cta a {
+display: block;
+width: 90%;
+margin: 10px auto;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp {
+bottom: 70px; /* avoid overlap with sticky */
+right: 15px;
+padding: 12px 16px;
+font-size: 14px;
+}
+
+/* FIX EXTRA WHATSAPP ICON */
+.whatsapp-btn {
+display: none;
+}
+
+}
 </style>
 </head>
 
